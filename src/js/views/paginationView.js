@@ -4,8 +4,6 @@ import icons from 'url:../../img/icons.svg';
 
 class PaginationView extends View {
   _parentElement = document.querySelector('.pagination');
-  //   _errorMessage = 'No recipes found. Please try again';
-  //   _message = 'yaaaay!';
 
   addHandlerClick(handler) {
     this._parentElement.addEventListener('click', function (e) {
@@ -72,7 +70,6 @@ class PaginationView extends View {
     }
 
     return '';
-    // return this._data.map(this._generateMarkupPreview).join('');
   }
 
   _generateMarkupPreview() {
